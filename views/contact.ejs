@@ -1,0 +1,47 @@
+<%- include('partials/header') %>
+
+<main class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            
+            <!-- Styled Heading with a Line Underneath -->
+            <div class="text-center mb-5">
+                <h1 class="fw-bold text-dark display-5"><%= title %></h1>
+                <hr class="w-25 mx-auto border-dark border-2 opacity-75">
+            </div>
+            
+            <!-- Boxed Card Layout with soft background and shadow -->
+            <div class="card shadow border-0 bg-light p-3">
+                <div class="card-body">
+                    <p class="text-center mb-4 fs-6 text-secondary">
+                        Feel free to reach out to me directly at <strong class="text-dark">msobanajmal@gmail.com</strong> or send a message using the form below.
+                    </p>
+                    
+                    <form action="/contact" method="POST">
+                        <div class="mb-3">
+                            <label for="name" class="form-label fw-bold text-dark">Name</label>
+                            <input type="text" class="form-control bg-white" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-dark">Email Address</label>
+                            <input type="email" class="form-control bg-white" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label for="message" class="form-label fw-bold text-dark">Message</label>
+                            <textarea class="form-control bg-white" id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                        </div>
+                        
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-dark btn-lg shadow-sm">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</main>
+
+<%- include('partials/footer') %>
