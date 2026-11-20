@@ -8,7 +8,7 @@ Hey! This is my Assignment 2 portfolio website for INFR3120 (Web and Scripting P
 
 
 ## Links
-* **Live Site (Render):** [Insert your Render link here]
+* **Live Site (Render):** https://portfolio-assignment-2-wmfi.onrender.com/
 * **GitHub Repo:** [https://github.com/msobanajmal-cmd/Assignment-2](https://github.com/msobanajmal-cmd/Assignment-2)
 
 ## Tech Stack
