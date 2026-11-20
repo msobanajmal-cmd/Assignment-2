@@ -5,7 +5,7 @@ Hey! This is my Assignment 2 portfolio website for INFR3120 (Web and Scripting P
 ## Student Info
 * **Name:** Muhammad Soban Ajmal
 * **Student ID:** 101023601
-* **Program:** Networking and IT Security
+
 
 ## Links
 * **Live Site (Render):** [Insert your Render link here]
